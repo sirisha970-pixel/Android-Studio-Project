@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speaking modules"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:padding="30dp"
+        android:textColor="#ff00ff"
+        android:typeface="monospace"/>
+    <!-- Module Buttons -->
+    <Button
+        android:id="@+id/module1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module 1"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/module2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module 2"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/module3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module 3"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/module4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module 4"
+        android:layout_marginBottom="12dp"/>
+
+
+    <!-- Navigation Buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=" ">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+    </LinearLayout>
+</LinearLayout>

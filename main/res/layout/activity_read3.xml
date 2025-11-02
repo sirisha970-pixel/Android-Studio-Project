@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#FFFFFF">
+
+    <!-- Sentence Display -->
+    <TextView
+        android:id="@+id/sentenceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sentence"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Sentence and Speaker Icon -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/sentenceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="She sells seashells by the seashore."
+            android:textSize="15sp"
+            android:textColor="#333333" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/speakerIcon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_volume_up_24"
+        android:contentDescription="Play sentence audio" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+    <!-- Speak and Voice Play Buttons -->
+
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Speak"
+            android:textAllCaps="false"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/replayButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Voice Play"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+    <!-- Rating and Speaking Rate Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/accuracyValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textColor="#000000"
+            android:layout_marginBottom="4dp" />
+
+
+
+        <!-- Rating Progress -->
+
+        <TextView
+            android:id="@+id/ratingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speaking Accuracy"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:id="@+id/rateValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 wpm"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+
+        <!-- Speaking Rate -->
+        <TextView
+            android:id="@+id/speakingRateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speaking Rate"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+    <!-- Navigation Buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textAllCaps="false" />
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>

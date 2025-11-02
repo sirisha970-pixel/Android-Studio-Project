@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TalkBuddy</string>
+    <string name="book">A book is a collection of printed or blank pages fastened together inside a cover, used for reading or writing. It can also be a written work published in electronic or printed form.</string>
+    <string name="computer">A computer is a programmable electronic device that accepts data as input, processes it using a central processing unit (CPU), and produces output, often storing the information for later use. </string>
+    <string name="sentence1">welcome to android programming</string>
+    <string name="college">A college is an institution of higher education that provides post-secondary education, typically granting associate or bachelor\'s degrees. It can also refer to a specialized training school or a constituent part of a larger university.</string>
+    <string name="software">Software is a collection of instructions, data, and programs that direct a computer or other electronic device to perform specific tasks</string>
+</resources>

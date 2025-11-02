@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FFFDFE">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/moduleTitle"
+        android:text="Module - 1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/playButton"
+            android:text="Play"
+            android:backgroundTint="#aa00aa"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/speakButton"
+            android:text="Speak"
+            android:backgroundTint="#aa00aa"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/resultText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/backButton"
+            android:text="Back"
+            android:backgroundTint="#ff00ff"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/nextButton"
+            android:text="Next"
+            android:backgroundTint="#ff00ff"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</LinearLayout>
